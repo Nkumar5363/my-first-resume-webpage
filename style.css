@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    margin:0;
+}
+.parent {
+    position:relative;
+     display: flex;
+flex-direction: column;
+align-items: center;
+   
+    background-color:rgb(6, 239, 193);
+    height:100vh;
+    justify-content: space-evenly;
+    
+    
+}
+
+h1 {
+   
+     font-size:100px; 
+     font-family:  "Pacifico", cursive;
+}
+.logo {
+    height:100px;
+    width:200px;
+    }
+
+@media(max-width:800px) {
+    .parenter {
+            font-size: 50px;
+    }
+    .logo {
+     width:100px;
+    }
+    
+}
+
+.head {
+    flex-shrink: 3;
+    height:270px;
+    
+}
+.hel {
+    width:100%;
+    height:100%;
+   
+}
+ .photo {
+    height:150px;
+    border-radius: 50%;
+ }
+.middle-container {
+    margin-top: 100px;
+}
+.middleunder {
+    color:rgb(6, 239, 193);
+    font-size: 2rem;
+}
+.para {
+    font-size: 1.5rem;
+    width:30%;
+    margin:auto;
+}
+hr {
+    border: 6px dotted #eaf6f6 ;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width:50%;
+    margin:auto;
+    gap:5px;
+}
+.grid-item {
+    
+    background-color: rgb(6, 239, 193);
+}
+.image {
+    width:100%;
+    height:100%;
+}
